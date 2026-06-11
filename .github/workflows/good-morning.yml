@@ -3,7 +3,6 @@ name: Good Morning Workflow
 on:
   schedule:
     - cron: '0 9 * * *'
-  workflow-dispatch:
 
 jobs:
   good-morning:
