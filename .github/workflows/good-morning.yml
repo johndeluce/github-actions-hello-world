@@ -3,7 +3,9 @@ name: Good Morning Workflow
 on:
   schedule:
     - cron: '0 9 * * *'
+  workflow_dispatch:
 
+  
 jobs:
   good-morning:
     runs-on: ubuntu-latest
