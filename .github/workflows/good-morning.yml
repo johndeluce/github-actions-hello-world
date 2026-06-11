@@ -6,7 +6,7 @@ on:
 
 jobs:
   good-morning:
-    runs on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Greet
