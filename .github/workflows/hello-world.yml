@@ -24,7 +24,7 @@ jobs:
       - name: Show System information
         run: |
           echo "OS: $(uname -s)"
-          echo "Architecture: $(uname - m)"
+          echo "Architecture: $(uname -m)"
           echo "Kernel: $(uname -r)"
 
       - name: Print Environment Variables
